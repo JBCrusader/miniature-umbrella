@@ -90,6 +90,13 @@ main {
 footer {
   background-color: #1f3f76;
   flex-shrink: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer img {
+    height: 3rem;
+    margin: 10px;
 }
 
 /* Media query: tablets and larger (768px and up) */
