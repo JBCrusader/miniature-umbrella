@@ -8,6 +8,7 @@
 html,
 body {
   height: 100%;
+  background-color: #d7d5d599;
 }
 
 body {
@@ -75,8 +76,14 @@ nav {
 
 /* Main */
 main {
-  background-color: gray;
   flex: 1 0 auto;
+  margin-top: 120px;
+  padding: 1rem;
+}
+
+/* Thank you page */
+.thank-you {
+    text-align: center;
 }
 
 /* Footer */
