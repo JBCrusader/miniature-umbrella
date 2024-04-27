@@ -12,7 +12,7 @@
     <!-- Title -->
     <title>CrusaderGuy</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
-    <!-- Favicon -->
+    <!-- Favicon and Font Awesome -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -61,7 +61,25 @@
     </header>
 
     <!-- Main -->
-    <main>Main</main>
+    <main>
+      <section id="contactform">
+        <form action="thank-you.html" id="contact-form">
+          <h2><i class="fa-solid fa-envelope"></i> Contact me!</h2>
+          <label for="first-name">First Name</label>
+          <input type="text" name="first_name" id="first-name" class="text-input" required>
+          <br>
+          <label for="last-name">Last Name</label>
+          <input type="text" name="last_name" id="last-name" class="text-input" required>
+          <br>
+          <label for="email-address">Email Address</label>
+          <input type="email" name="email_address" id="email-address" class="text-input" required>
+          <br>
+          <label for="message">Message</label>
+          <textarea placeholder="Your message goes here..." id="message" name="message"></textarea>
+          <br>
+          <button type="submit" class="submit-button">Send</button>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
