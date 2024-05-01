@@ -86,7 +86,7 @@ main {
   flex: 1 0 auto;
   margin-top: 120px;
   padding: 1rem;
-  background-image: url("/assets/images/bsartwork.jpg");
+  background-image: url("../images/bsartwork.jpg");
 }
 
 /* Introduction */
@@ -94,6 +94,8 @@ main {
     color: #fafafa;
     text-align: center;
     padding: 2rem;
+    max-width: 1480px;
+    margin: 0 auto;
 }
 
 #introduction iframe {
