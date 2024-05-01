@@ -86,8 +86,35 @@ main {
   flex: 1 0 auto;
   margin-top: 120px;
   padding: 1rem;
+  background-image: url("/assets/images/bsartwork.jpg");
 }
 
+/* Introduction */
+#introduction {
+    color: #fafafa;
+    text-align: center;
+    padding: 2rem;
+}
+
+#introduction iframe {
+    padding: 2rem;
+}
+
+/* Gallery */
+#galleryheader {
+    text-align: center;
+    color: #fafafa;
+}
+
+#ytvideos {
+    display: flex;
+}
+
+#ytvideos iframe {
+    width: 30%;
+    height: 20rem;
+}
+    
 /* Contact form */
 #contactform {
     text-align: center;
@@ -99,7 +126,6 @@ main {
     background-color: #1f3f76;
     border-color: #d7d5d599;
 }
-
 
 /* Thank you page */
 .thank-you {
