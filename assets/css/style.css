@@ -86,7 +86,7 @@ main {
   flex: 1 0 auto;
   margin-top: 120px;
   padding: 1rem;
-  background-image: url("../images/bsartwork.jpg");
+  background: url("../images/bsartwork.jpg") no-repeat center center/cover;
 }
 
 /* Introduction */
@@ -96,6 +96,17 @@ main {
     padding: 2rem;
     max-width: 1480px;
     margin: 0 auto;
+}
+
+#games {
+    color: white;
+    text-align: center;
+}
+
+#games img {
+    width:  300px;
+    height: 300px;
+    border: 3px solid #1f3f76;
 }
 
 #introduction iframe {
@@ -127,6 +138,7 @@ main {
     margin: 0 auto;
     background-color: #1f3f76;
     border-color: #d7d5d599;
+    color: white;
 }
 
 /* Thank you page */
