@@ -134,12 +134,37 @@ main {
     border-style: solid;
     border-radius: 30px;
     line-height: 1.5;
-    width: 20%;
+    width: 100%;
     margin: 0 auto;
     background-color: #1f3f76;
     border-color: #d7d5d599;
     color: white;
-}
+  }
+  
+  input[type=text],
+  input[type=email],
+  select,
+  textarea {
+      width: 95%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical
+  }
+  
+  /* styled to give 3d effect on contact form submit button */
+  #contactform button[type=submit] {
+      background-color: white;
+      padding: 12px 20px;
+      border: solid;
+      border-style: groove;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
 
 /* Thank you page */
 .thank-you {
@@ -180,5 +205,17 @@ footer img {
 
     .nav-toggle-label {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+	#contactform {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+    #contactform {
+
     }
 }
