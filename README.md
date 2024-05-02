@@ -28,3 +28,26 @@ View the live site [here](https://jbcrusader.github.io/miniature-umbrella/)
     * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
 
 ![404](docs/readme_images/404.png)
+
+### Landing Page
+* Landing page image
+    * This will be an image of art from the main game I create content for.
+    * This will help to immediately show the user what the website is about. 
+
+![Landing Page Image](docs/readme_images/bsartwork.jpg)
+* Website information on 'CrusaderGuy'
+    * Information about 'CrusaderGuy' and the websites purpose.
+    * This information lets the user know what the site is about. 
+
+* Contact form
+    * A contact form will be implemented to allow users to contact 'CrusaderGuy'. The form will consist of the following fields and attributes: 
+        * First Name (required, type=text)
+        * Last Name (required, type=text)
+        * Email (required, type=email)
+        * Message (required, type=textarea)
+    * On successful submission of the contact form, the user will be navigated to thank-you.html displaying a thank you message.
+    * This will allow user to contact 'CrusaderGuy' if they have any questions.
+
+![Contact Form](docs/readme_images/contact.png)
+
+![Contact Form Received](docs/readme_images/recieved.png)
