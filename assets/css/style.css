@@ -85,7 +85,7 @@ nav {
 /* Main */
 main {
   flex: 1 0 auto;
-  margin-top: 120px;
+  margin-top: 115px;
   padding: 1rem;
   background: url("../images/bsartwork.jpg") no-repeat center center/cover;
 }
@@ -119,6 +119,7 @@ main {
     overflow: hidden;
     width: 100%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+    margin-top: 60px;
   }
   
   /* Then style the iframe to fit in the container div with full height and width */
@@ -140,13 +141,18 @@ main {
 
 #ytvideos {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-#ytvideos iframe {
-    width: 30%;
-    height: 20rem;
-}
-    
+#ytvideos {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #ytvideos .video-container {
+    width: 45%;
+  }
+
 /* Contact form */
 #contactform {
     text-align: center;
