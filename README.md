@@ -69,8 +69,6 @@ View the live site [here](https://jbcrusader.github.io/miniature-umbrella/)
 
 * N/A
 
-## Design
-
 ## Technologies
 
 * HTML
@@ -332,7 +330,10 @@ The project will now of been cloned on your local machine for use.
     * Code was used from this site to create responsive iframes on my gallery page.
 * [Header & Navigation Bar](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main)
     * Code was used from this project to create the header and navigation bar for my site.
-
+* [Website Background Art](https://drive.google.com/drive/folders/1pEw9hZsUoi-oNxJKB7jZt_tF3sEc_ZrS)
+    * Artwork for the main game I play was used from this press kit obtained via being a content creator.
+* [Games I play Images](https://images.google.com)
+    * Covers of the games I play were obtained from google images.
 
 ### Content 
 
