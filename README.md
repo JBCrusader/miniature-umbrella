@@ -89,6 +89,8 @@ View the live site [here](https://jbcrusader.github.io/miniature-umbrella/)
     * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
 * Favicon.io
     * favicon files were created at https://favicon.io/favicon-converter/ 
+* UXWing
+    * Footer icons were obtained at https://uxwing.com
 
 ## Testing 
 
@@ -325,6 +327,11 @@ Navigate to the GitHub Repository you want to clone to use locally:
 The project will now of been cloned on your local machine for use.
 
 ## Credits 
+
+* [Responsive iframe](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+    * Code was used from this site to create responsive iframes on my gallery page.
+* [Header & Navigation Bar](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main)
+    * Code was used from this project to create the header and navigation bar for my site.
 
 
 ### Content 
