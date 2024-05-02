@@ -120,3 +120,183 @@ Website was also opened on the following devices and no responsive issues were s
 - TCL 30 Pro
 - iPhone SE
 - Samsung Galaxy Tablet
+
+### Accessibility
+
+[Wave Accessibility](https://wave.webaim.org/) tool was used throughout development and for final testing of the deployed website to check for any aid accessibility testing.
+
+Testing was focused to ensure the following criteria were met:
+
+- All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
+- Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
+- Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
+- All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
+- All not textual content had alternative text or titles so descriptions are read out to screen readers
+- HTML page lang attribute has been set
+- Aria properties have been implemented correctly
+- WCAG 2.1 Coding best practices being followed
+
+### Lighthouse Testing
+
+![Home](docs/readme_images/indexlighthouse.png)
+
+![Gallery](docs/readme_images/gallerylighthouse.png)
+
+![Contact](docs/readme_images/contactlighthouse.png)
+
+### Functional Testing
+
+**Navigation Links**
+
+Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
+
+| Navigation Link | Page to Load    |
+| --------------- | --------------- |
+| Home            | index.html      |
+| Gallery         | gallery.html    |
+| Contact         | contact.html    |
+
+Links on all pages navigated to the correct pages as exptected.
+
+**Form Testing**
+
+The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+
+_Scenario One - Correct Inputs_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   - First Name: John
+   - Last Name: Doe
+   - Email: doe.john@test.com
+   - Comment: This is a test.
+3. Click Submit
+4. User should be redirected to contact.html confirmation page
+
+Expected:
+
+Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+
+Actual:
+
+Website behaved as expected with no errors or warnings and redirected to contact.html.
+
+_Scenario Two - Missing Required Field First Name_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   - First Name:
+   - Last Name: Doe
+   - Email: doe.john@test.com
+   - Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Three - Missing Required Field Last Name_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   - First Name:John
+   - Last Name:
+   - Email: doe.john@test.com
+   - Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Four - Missing Required Field Email_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   - First Name:John
+   - Last Name: Doe
+   - Email:
+   - Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that the field is required.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+_Scenario Six - Incorrect email format_
+
+Steps to test:
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Scroll down to the form and input the following data:
+   - First Name:John
+   - Last Name: Doe
+   - Email: doe.johntest.com
+   - Comment: This is a test.
+3. Click Submit
+
+Expected:
+
+The form does not submit and an Error is displayed to tell the user that a valid email is required and the format it should be in.
+
+Actual:
+
+Website behaved as expected, error message was displayed and the form did not submit.
+
+**Footer Social Media Icons / Links**
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab and that each one had a hover affect of the orange branding color.
+
+Each item opened a new tab when clicked as expected and correct hover color was present.
+
+**Footer Contact Information**
+
+Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+
+_Steps to test Telephone Number_
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Click the phone number in the footer (01 123 456 789)
+
+Expected:
+
+A window is opened asking which device you would like to call from.
+
+Actual:
+
+Behavior was as expected and the window presented me with the following option to call:
+
+- Oukitel Mobile Phone
+
+_Steps to test Email Link_
+
+1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+2. Click the email address in the footer (taco@gmail.com)
+
+Expected:
+
+A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+
+Actual:
+
+Behavior was as expected and my outlook application was opened ready to send an email to the target address.
