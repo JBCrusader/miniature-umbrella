@@ -156,7 +156,7 @@ Testing was performed to ensure all navigation links on the respective pages, na
 | Gallery         | gallery.html    |
 | Contact         | contact.html    |
 
-Links on all pages navigated to the correct pages as exptected.
+Links on all pages navigated to the correct pages as expected.
 
 **Form Testing**
 
@@ -166,14 +166,14 @@ _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [CrusaderGuy - Home Page](https://jbcrusader.github.io/miniature-umbrella/index.html)
 2. Scroll down to the form and input the following data:
    - First Name: John
    - Last Name: Doe
    - Email: doe.john@test.com
    - Comment: This is a test.
 3. Click Submit
-4. User should be redirected to contact.html confirmation page
+4. User should be redirected to thank-you.html confirmation page
 
 Expected:
 
@@ -187,7 +187,7 @@ _Scenario Two - Missing Required Field First Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [CrusaderGuy - Home Page](https://jbcrusader.github.io/miniature-umbrella/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:
    - Last Name: Doe
@@ -207,7 +207,7 @@ _Scenario Three - Missing Required Field Last Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [CrusaderGuy - Home Page](https://jbcrusader.github.io/miniature-umbrella/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name:
@@ -227,7 +227,7 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [CrusaderGuy - Home Page](https://jbcrusader.github.io/miniature-umbrella/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name: Doe
@@ -247,7 +247,7 @@ _Scenario Six - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
+1. Navigate to [CrusaderGuy - Home Page](https://jbcrusader.github.io/miniature-umbrella/index.html)
 2. Scroll down to the form and input the following data:
    - First Name:John
    - Last Name: Doe
@@ -269,34 +269,68 @@ Testing was performed on the Font Awesome Social Media icons in the footer to en
 
 Each item opened a new tab when clicked as expected and correct hover color was present.
 
-**Footer Contact Information**
+### Validator Testing 
 
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-_Steps to test Telephone Number_
+![Contact HTML Validator Results](docs/readme_images/contact_validator.png)
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the phone number in the footer (01 123 456 789)
+![Home HTML Validator Results](docs/readme_images/home_validator.png)
 
-Expected:
+![Gallery HTML Validator Results](docs/readme_images/gallery_validator.png)
 
-A window is opened asking which device you would like to call from.
+![404 HTML Validator Results](docs/readme_images/404_validator.png)
 
-Actual:
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-Behavior was as expected and the window presented me with the following option to call:
+![CSS Validator Results](docs/readme_images/css_validator.png)
 
-- Oukitel Mobile Phone
+## Deployment
 
-_Steps to test Email Link_
+### Version Control
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the email address in the footer (taco@gmail.com)
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘miniature-umbrella’.
 
-Expected:
+The following git commands were used throughout development to push code to the remote repo:
 
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
+```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
 
-Actual:
+```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
 
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
+```git push``` - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the menu on left select 'Pages'
+  - From the source section drop-down menu, select the Branch: main
+  - Click 'Save'
+  - A live link will be displayed in a green banner when published successfully. 
+
+The live link can be found here - https://jbcrusader.github.io/miniature-umbrella/ 
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
+
+## Credits 
+
+
+### Content 
+
+
+
+### Media
+
+
