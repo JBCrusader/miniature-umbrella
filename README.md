@@ -144,6 +144,8 @@ Testing was focused to ensure the following criteria were met:
 
 ![Contact](docs/readme_images/contactlighthouse.png)
 
+![404](docs/readme_images/404lighthouse.png)
+
 ### Functional Testing
 
 **Navigation Links**
