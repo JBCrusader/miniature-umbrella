@@ -337,8 +337,8 @@ The project will now of been cloned on your local machine for use.
 
 ### Content 
 
+* [Introduction](https://www.opera.com/gx/ai-browser)
+    * I used Aria by OperaGX to generate some text for my Introduction.
 
-
-### Media
 
 
