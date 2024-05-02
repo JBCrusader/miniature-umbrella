@@ -51,3 +51,72 @@ View the live site [here](https://jbcrusader.github.io/miniature-umbrella/)
 ![Contact Form](docs/readme_images/contact.png)
 
 ![Contact Form Received](docs/readme_images/recieved.png)
+
+### Gallery Page
+* Gallery
+    * The gallery will provide the user with videos from the 'CrusaderGuy' Youtube channel. The gallery will be fully responsive on all devices and allows the user to filter by categories provided in a sub navigation.
+    * This will allow users that are interested in 'CrusaderGuy' to watch some of the videos. As the gallery is responsive it will allow the user to view content from any device. 
+
+![Gallery](docs/readme_images/gallery.png)
+
+### Existing Features
+
+* Responsive design
+* Responsive gallery
+* Contact form and success page
+
+### Features Left to Implement
+
+* N/A
+
+## Design
+
+## Technologies
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Visual Studio Code
+    * The website was developed using Visual Studio Code IDE
+* GitHub
+    * Source code is hosted on GitHub and deployed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* Favicon.io
+    * favicon files were created at https://favicon.io/favicon-converter/ 
+
+## Testing 
+
+### Responsiveness
+
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards as defined in [WCAG 2.1 Reflow criteria for responsive design](https://www.w3.org/WAI/WCAG21/Understanding/reflow.html) on Chrome, Edge, Firefox and Opera browsers.
+
+Steps to test:
+
+1. Open browser and navigate to [CrusaderGuy](https://jbcrusader.github.io/miniature-umbrella/)
+2. Open the developer tools (right click and inspect)
+3. Set to responsive and decrease width to 320px
+4. Set the zoom to 50%
+5. Click and drag the responsive window to maximum width
+
+Expected:
+
+Website is responsive on all screen sizes and no images are pixelated or stretched.
+No horizontal scroll is present.
+No elements overlap.
+
+Actual:
+
+Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+
+Website was also opened on the following devices and no responsive issues were seen:
+
+- Oukitel C21 Pro
+- TCL 30 Pro
+- iPhone SE
+- Samsung Galaxy Tablet
